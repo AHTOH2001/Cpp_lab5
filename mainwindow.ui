@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>635</width>
+    <height>896</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>20</y>
+      <width>322</width>
+      <height>724</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="3" column="4">
+      <widget class="QLineEdit" name="p2">
+       <property name="maxLength">
+        <number>8</number>
+       </property>
+      </widget>
+     </item>
+     <item row="14" column="1" colspan="4">
+      <widget class="QPushButton" name="peek_last_button">
+       <property name="text">
+        <string>Пикануть конец</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1" colspan="4">
+      <spacer name="horizontalSpacer_7">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="23" column="1" colspan="4">
+      <spacer name="horizontalSpacer_6">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="7" column="1" colspan="4">
+      <widget class="QPushButton" name="add_last_button">
+       <property name="text">
+        <string>Добавить в конец</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>x:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="24" column="1" colspan="4">
+      <widget class="QPushButton" name="clear_button">
+       <property name="text">
+        <string>Очистить</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>p1:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="15" column="1" colspan="4">
+      <widget class="QPushButton" name="peek_first_button">
+       <property name="text">
+        <string>Пикануть начало</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QLineEdit" name="p1">
+       <property name="maxLength">
+        <number>8</number>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="3">
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>p2:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="17" column="1" colspan="4">
+      <widget class="QPushButton" name="pop_last_button">
+       <property name="text">
+        <string>Украсть конец</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="4">
+      <widget class="QLineEdit" name="p_2">
+       <property name="maxLength">
+        <number>8</number>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1" colspan="4">
+      <widget class="QPushButton" name="insert_button">
+       <property name="text">
+        <string>Вставка числа (x) на позицию (p)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="1">
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>p:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QLineEdit" name="x_2">
+       <property name="maxLength">
+        <number>8</number>
+       </property>
+      </widget>
+     </item>
+     <item row="20" column="1" colspan="4">
+      <widget class="QPushButton" name="count_button">
+       <property name="text">
+        <string>Длина очереди</string>
+       </property>
+      </widget>
+     </item>
+     <item row="18" column="1" colspan="4">
+      <widget class="QPushButton" name="pop_first_button">
+       <property name="text">
+        <string>Украсть начало</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="2" colspan="3">
+      <widget class="QLineEdit" name="x">
+       <property name="maxLength">
+        <number>8</number>
+       </property>
+      </widget>
+     </item>
+     <item row="19" column="1" colspan="4">
+      <spacer name="horizontalSpacer_4">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="0" column="3">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>p:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1" colspan="4">
+      <spacer name="horizontalSpacer_8">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="11" column="2" colspan="3">
+      <widget class="QLineEdit" name="p">
+       <property name="maxLength">
+        <number>8</number>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1" colspan="4">
+      <widget class="QPushButton" name="add_swap_button_">
+       <property name="text">
+        <string>Поменять местами элементы на позициях p1 и p2</string>
+       </property>
+      </widget>
+     </item>
+     <item row="21" column="1" colspan="4">
+      <spacer name="horizontalSpacer_5">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="22" column="1" colspan="4">
+      <widget class="QPushButton" name="random_button">
+       <property name="text">
+        <string>Зарандомить</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="1" colspan="4">
+      <widget class="QPushButton" name="add_first_button">
+       <property name="text">
+        <string>Добавить в начало</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>x:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="1" colspan="4">
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="12" column="1" colspan="4">
+      <widget class="QPushButton" name="add_erase_button">
+       <property name="text">
+        <string>Удалить элемент из очереди на позиции (p)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="16" column="1" colspan="4">
+      <spacer name="horizontalSpacer_3">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="13" column="1" colspan="4">
+      <spacer name="horizontalSpacer_9">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="task_button">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>760</y>
+      <width>450</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Удалить числа между максимальным и минимальным</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>111</width>
+      <height>721</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>635</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <tabstops>
+  <tabstop>task_button</tabstop>
+  <tabstop>clear_button</tabstop>
+  <tabstop>random_button</tabstop>
+  <tabstop>count_button</tabstop>
+  <tabstop>pop_first_button</tabstop>
+  <tabstop>pop_last_button</tabstop>
+  <tabstop>peek_first_button</tabstop>
+  <tabstop>peek_last_button</tabstop>
+  <tabstop>add_erase_button</tabstop>
+  <tabstop>p</tabstop>
+  <tabstop>add_first_button</tabstop>
+  <tabstop>add_last_button</tabstop>
+  <tabstop>x</tabstop>
+  <tabstop>add_swap_button_</tabstop>
+  <tabstop>p1</tabstop>
+  <tabstop>p2</tabstop>
+  <tabstop>insert_button</tabstop>
+  <tabstop>x_2</tabstop>
+  <tabstop>p_2</tabstop>
+  <tabstop>listWidget</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
